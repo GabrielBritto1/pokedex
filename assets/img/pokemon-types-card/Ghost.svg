@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.411764706   0 0 0 0 0.439215686   0 0 0 0 0.77254902  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Ghost" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#6970C5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="GHOST" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="42.5" y="19">GHOST</tspan>
+                </text>
+                <path d="M21,7 C24.8659932,7 28,10.0703446 28,13.8578066 C28,15.6193277 27.3220791,17.2257282 26.2078919,18.4402622 C25.6086228,19.0935033 27.8249099,19.3604297 27.3318181,20.0351046 C27.0628145,20.4031701 25.6044771,20.8739267 24.0885434,20.9515212 C22.8257254,21.0161596 21.3799735,21.0161596 20.8886483,20.9515212 C17.0562157,20.4473286 14,17.6452686 14,13.8578066 C14,10.0703446 17.1340068,7 21,7 Z M18.3756417,12.0717133 C18.0457644,12.261326 17.828125,12.6060535 17.828125,13.0005808 C17.828125,13.5923717 18.3178136,14.0721131 18.921875,14.0721131 C19.5259364,14.0721131 20.015625,13.5923717 20.015625,13.0005808 L19.3393791,13.0005808 C18.8186559,13.0005808 18.3943256,12.5878738 18.3756417,12.0717133 Z M23.4036134,12.070911 L23.40625,12.0362017 C23.40625,12.5688136 22.9744828,13.0005808 22.4418709,13.0005808 L21.765625,13.0005808 C21.765625,13.5923717 22.2553136,14.0721131 22.859375,14.0721131 C23.4634364,14.0721131 23.953125,13.5923717 23.953125,13.0005808 C23.953125,12.6028973 23.7319895,12.2558136 23.4036134,12.070911 Z" id="Oval-10" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

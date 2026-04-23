@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.850980392   0 0 0 0 0.258823529   0 0 0 0 0.337254902  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Fight" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#D94256" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="FIGHT" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="45.83" y="19">FIGHT</tspan>
+                </text>
+                <path d="M17.6909091,7 C18.2730519,7 18.784975,7.30064652 19.0798801,7.75514136 C19.1251378,7.75193879 19.1714334,7.75 19.2181818,7.75 C19.3254129,7.75 19.4302615,7.76020091 19.5318101,7.77968525 C19.8342716,7.45389044 20.2660525,7.25 20.7454545,7.25 C21.4267819,7.25 22.0119233,7.66182124 22.2655366,8.25012165 C22.3904861,8.25 22.5053716,8.26230224 22.6161686,8.28569161 C22.8800444,8.10561702 23.2004154,8 23.5454545,8 C24.2607528,8 24.8700344,8.4539118 25.1009703,9.08940655 C25.2257197,9.13190145 25.3449227,9.1898441 25.4551891,9.26051141 C25.7112027,9.09561302 26.0171628,9 26.3454545,9 C27.2592348,9 28,9.74076523 28,10.6545455 L28,15.6491225 L27.9998419,15.6683003 C27.9742721,19.1691867 24.8501324,22 21,22 C17.1340068,22 14,19.1458153 14,15.625 C14,13.9306762 14.7257821,12.3907327 15.9096538,11.2489606 C15.8997618,13.4985067 15.9541705,14.6091295 16.0745348,14.5816831 C16.3287649,14.5237116 16.3330154,12.411965 16.0872862,8.2464432 C16.2692546,7.52966156 16.9182273,7 17.6909091,7 Z" id="Oval-9" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

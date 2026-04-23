@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.333333333   0 0 0 0 0.588235294   0 0 0 0 0.643137255  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Steel" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#5596A4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="STEEL" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="46.166" y="19">STEEL</tspan>
+                </text>
+                <path d="M17.9609636,8 L25.0771946,8 C25.21013,8 25.3329913,8.07084063 25.3995903,8.18589012 L28.948676,14.3169226 C29.0155357,14.4324225 29.015501,14.5748644 28.9485849,14.6903317 L25.3996203,20.814267 C25.3329977,20.9292279 25.2101861,21 25.0773156,21 L17.9608423,21 C17.82861,21 17.7062882,20.9299006 17.6394375,20.8158113 L14.0511113,14.6918752 C13.9829959,14.5756275 13.9829606,14.4316589 14.0510191,14.3153779 L17.6394665,8.18434626 C17.7062942,8.07016799 17.8286661,8 17.9609636,8 Z M21.5,11 C19.5670034,11 18,12.5670034 18,14.5 C18,16.4329966 19.5670034,18 21.5,18 C23.4329966,18 25,16.4329966 25,14.5 C25,12.5670034 23.4329966,11 21.5,11 Z" id="Path-7" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

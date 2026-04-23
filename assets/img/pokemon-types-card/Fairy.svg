@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.937254902   0 0 0 0 0.592156863   0 0 0 0 0.901960784  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Fairy" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#EF97E6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="FAIRY" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="46.496" y="19">FAIRY</tspan>
+                </text>
+                <path d="M21.7128389,7.12623169 L23.595,10.57 L25.7298853,9.95246959 C25.9140688,9.89906427 26.0844734,10.0703977 26.0300678,10.2542881 L25.398,12.386 L28.8737683,14.2871611 C29.0420164,14.379179 29.0420164,14.620821 28.8737683,14.7128389 L25.43,16.595 L26.0300678,18.6220707 C26.0844734,18.8059612 25.9140688,18.9772946 25.7298853,18.9238893 L23.654,18.321 L21.7128389,21.8737683 C21.620821,22.0420164 21.379179,22.0420164 21.2871611,21.8737683 L19.344,18.321 L17.2701147,18.9238893 C17.0859312,18.9772946 16.9155266,18.8059612 16.9699322,18.6220707 L17.568,16.595 L14.1262317,14.7128389 C13.9579836,14.620821 13.9579836,14.379179 14.1262317,14.2871611 L17.6,12.386 L16.9699322,10.2542881 C16.9155266,10.0703977 17.0859312,9.89906427 17.2701147,9.95246959 L19.402,10.57 L21.2871611,7.12623169 C21.379179,6.95798363 21.620821,6.95798363 21.7128389,7.12623169 Z M21.7331762,12.164888 C21.6411583,11.9966399 21.3995163,11.9966399 21.3074983,12.164888 L20.5499712,13.5499712 L19.164888,14.3074983 C18.9966399,14.3995163 18.9966399,14.6411583 19.164888,14.7331762 L20.5499712,15.4907034 L21.3074983,16.8757866 C21.3995163,17.0440346 21.6411583,17.0440346 21.7331762,16.8757866 L22.4907034,15.4907034 L23.8757866,14.7331762 C24.0440346,14.6411583 24.0440346,14.3995163 23.8757866,14.3074983 L22.4907034,13.5499712 Z" id="Star" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

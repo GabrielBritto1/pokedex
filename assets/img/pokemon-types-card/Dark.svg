@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.37254902   0 0 0 0 0.376470588   0 0 0 0 0.42745098  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Dark" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#5F606D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="DARK" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="46.724" y="19">DARK</tspan>
+                </text>
+                <path d="M21,22 C24.8659932,22 28,18.8659932 28,15 C28,11.1340068 24.8659932,8 21,8 C17.1340068,8 14,11.1340068 14,15 C14,18.8659932 17.1340068,22 21,22 Z M21.0972222,9.75 C24.0504115,9.75 26.4444444,12.1440329 26.4444444,15.0972222 C26.4444444,18.0504115 24.0504115,20.4444444 21.0972222,20.4444444 C20.8199275,20.4444444 20.5475625,20.4233372 20.2816465,20.3826418 C21.8741219,19.3045854 22.9444444,17.2977398 22.9444444,15 C22.9444444,12.8141173 21.9757949,10.891496 20.5107346,9.7816503 C20.703249,9.76078844 20.8989757,9.75 21.0972222,9.75 Z" id="Oval-7" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

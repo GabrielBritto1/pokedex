@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.709803922   0 0 0 0 0.388235294   0 0 0 0 0.807843137  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Poison" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#B563CE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="POISON" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="39.95" y="19">POISON</tspan>
+                </text>
+                <path d="M21.5,7 C25.6421356,7 29,9.96371346 29,13.6196393 C29,15.5662628 28.0480102,17.3166368 26.5325328,18.5278619 C26.5971847,18.7859019 26.6315789,19.0636345 26.6315789,19.3521443 C26.6315789,20.8145146 25.7479304,22 24.6578947,22 C24.011838,22 23.4382819,21.5835564 23.0782355,20.9398439 C22.7196128,21.5835564 22.1460568,22 21.5,22 C20.7909722,22 20.1692671,21.4984187 19.8212756,20.745314 C19.4754697,21.4984187 18.8537647,22 18.1447368,22 C17.0547012,22 16.1710526,20.8145146 16.1710526,19.3521443 C16.1710526,19.0138008 16.2183547,18.6902792 16.3045709,18.3928324 C14.8839214,17.1889018 14,15.4953793 14,13.6196393 C14,9.96371346 17.3578644,7 21.5,7 Z M21.4013158,10.3901711 C18.9487355,10.3901711 16.9605263,11.8948256 16.9605263,13.750911 C16.9605263,15.6069965 18.9487355,17.111651 21.4013158,17.111651 C23.8538961,17.111651 25.8421053,15.6069965 25.8421053,13.750911 C25.8421053,11.8948256 23.8538961,10.3901711 21.4013158,10.3901711 Z" id="Oval-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

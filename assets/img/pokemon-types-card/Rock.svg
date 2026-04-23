@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="50px" viewBox="0 0 130 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="110" height="30" rx="15"></rect>
+        <filter x="-13.6%" y="-50.0%" width="127.3%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.807843137   0 0 0 0 0.756862745   0 0 0 0 0.549019608  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tag/Rock" transform="translate(5, 5)">
+            <g id="Group-4" transform="translate(5, 5)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#CEC18C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="ROCK" font-family="Avenir-Heavy, Avenir" font-size="12" font-weight="600" fill="#FFFFFF">
+                    <tspan x="46.502" y="19">ROCK</tspan>
+                </text>
+                <path d="M24.2482471,16.0786859 L25.5402498,18.0013275 C25.5953034,18.0832533 25.5753126,18.1940961 25.4951075,18.2516275 L21.7388605,20.9460003 C21.6915423,20.9799419 21.6308759,20.9892874 21.5755366,20.9711598 L18.3270519,19.907049 L23.9934943,16.0298184 C24.0772433,15.9725137 24.1916472,15.994459 24.2482471,16.0786859 Z M24.4039901,10.0250775 C24.5155911,10.0250775 24.6011024,10.1242774 24.5846516,10.2346594 L23.8948592,14.8630405 C23.8874078,14.9130378 23.8595702,14.9577117 23.8179712,14.9864306 L17.1321679,19.6021331 C17.0852279,19.6345392 17.0258442,19.643157 16.9716289,19.6254304 L14.1258915,18.6949695 C14.0507964,18.6704159 14,18.6003644 14,18.5213572 L14,15.5984606 C14,15.5558932 14.0148671,15.5146625 14.0420332,15.4818908 L18.5106658,10.0911646 C18.5453672,10.0493027 18.5969149,10.0250775 18.6512895,10.0250775 L24.4039901,10.0250775 Z M25.8449586,10 L25.85606,10 C25.9357471,10 26.0062374,10.0516595 26.0302365,10.1276468 L27.9618054,16.2435092 C27.9847719,16.3162274 27.9601452,16.3955609 27.9000374,16.4424911 L26.6610433,17.4098568 C26.5798607,17.4732415 26.4623544,17.4570065 26.4013998,17.3739839 L24.8535633,15.2657685 C24.8242281,15.2258128 24.8123913,15.1756505 24.8207697,15.1267954 L25.6754923,10.1428775 C25.6896478,10.0603365 25.7612126,10 25.8449586,10 Z" id="Path-8" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

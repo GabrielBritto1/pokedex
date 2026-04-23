@@ -1,41 +1,136 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" href="./assets/img/icon-pokedex.webp">
-   <link rel="stylesheet" href="./assets/css/style.css">
-
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Pokédex</title>
+   <link rel="icon" href="./assets/img/icon-pokedex.webp">
+   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
+   <main class="app">
+      <section class="pokedex">
+         <div class="pokedex-top">
+            <div class="lens"></div>
+            <div class="top-lights">
+               <span class="light red"></span>
+               <span class="light yellow"></span>
+               <span class="light green"></span>
+            </div>
+         </div>
 
-   <main>
-      <img src="#" alt="pokemon" class="poke-img">
+         <div class="curve-left"></div>
+         <div class="hinge"></div>
+         <div class="curve-right"></div>
 
-         <span class="poke-number"></span>
-         <span class="poke-name"></span>
-         <span class="poke-types"></span>
-         <span class="poke-height"></span>
-         <span class="poke-weight"></span>
+         <section class="left-panel">
+            <div class="screen-shell">
+               <div class="screen-leds">
+                  <span></span>
+                  <span></span>
+               </div>
 
-      <form class="form">
-         <input type="search" class="input-search" placeholder="Name or Number" required>
-      </form>
+               <div class="main-screen">
+                  <div class="pokemon-card">
+                     <img src="./assets/img/pokebola_preta.png" alt="Pokémon Card" class="card-bg" />
 
-      <div class="buttons">
-         <button class="button btn-prev">&#60; Prev</button>
-         <button class="button btn-next">Next &#62;</button>
-      </div>
+                     <div class="pokemon-visual">
+                        <img class="poke-img" src="" alt="Pokémon" />
+                     </div>
 
-      <img src="./assets/img/pokedex.png" alt="pokedex" class="pokedex">
+                     <div class="pokemon-info">
+                        <div class="info-group">
+                           <span class="info-label">Nome</span>
+                           <div class="info-value poke-name">Bulbasaur</div>
+                        </div>
 
-      <script src="./assets/js/script.js"></script>
+                        <div class="info-group small">
+                           <span class="info-label">ID</span>
+                           <div class="info-value poke-number">1</div>
+                        </div>
+
+                        <div class="info-group">
+                           <span class="info-label">Tipo</span>
+                           <div class="info-value poke-types">Grass, Poison</div>
+                        </div>
+
+                        <div class="info-divider">
+                           <span></span>
+                        </div>
+
+                        <div class="info-group small">
+                           <span class="info-label">Altura</span>
+                           <div class="info-value poke-height">0.7 m</div>
+                        </div>
+
+                        <div class="info-group small">
+                           <span class="info-label">Peso</span>
+                           <div class="info-value poke-weight">6.9 kg</div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="buttons">
+                     <button type="button" class="button btn-prev">Prev</button>
+                     <div class="button-center-detail"></div>
+                     <button type="button" class="button btn-next">Next</button>
+                  </div>
+               </div>
+
+               <div class="screen-footer">
+                  <div class="red-button"></div>
+                  <div class="speaker">
+                     <span></span><span></span><span></span><span></span>
+                  </div>
+               </div>
+            </div>
+
+            <form class="form">
+               <input type="search" class="input-search" placeholder="Nome ou número" />
+            </form>
+         </section>
+
+         <section class="right-panel">
+            <div class="green-screen">
+               <div class="blue-screen-panel">
+                  <div class="blue-screen-tabs" role="tablist" aria-label="Detalhes do Pokémon">
+                     <button type="button" class="blue-tab is-active" data-tab="weaknesses">Fraq.</button>
+                     <button type="button" class="blue-tab" data-tab="stats">Stats</button>
+                     <button type="button" class="blue-tab" data-tab="abilities">Hab.</button>
+                  </div>
+
+                  <div class="blue-screen-content">
+                     <section class="blue-tab-panel is-active" data-panel="weaknesses">
+                        <span class="blue-panel-title">Fraquezas</span>
+                        <div class="weakness-list poke-weaknesses" aria-live="polite">
+                           <span class="screen-empty">Loading...</span>
+                        </div>
+                     </section>
+
+                     <section class="blue-tab-panel" data-panel="stats">
+                        <span class="blue-panel-title">Stats Base</span>
+                        <div class="stats-list poke-stats" aria-live="polite">
+                           <span class="screen-empty">Loading...</span>
+                        </div>
+                     </section>
+
+                     <section class="blue-tab-panel" data-panel="abilities">
+                        <span class="blue-panel-title">Habilidades</span>
+                        <div class="abilities-list poke-abilities" aria-live="polite">
+                           <span class="screen-empty">Loading...</span>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </section>
+
    </main>
 
+   <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
